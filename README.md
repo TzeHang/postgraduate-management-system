@@ -1,1 +1,2 @@
 # postgraduate-management-system
+This repository is for my final year project, where I have to design a postgraduate grading system for my faculty FSKTM (Fakulti Sains Komputer dan Teknologi Maklumat). I will be utilising my knowledge on html, css and javascript to design the website. However, I will need to learn more on back-end development and see how I can create a database that receives data from the users.
