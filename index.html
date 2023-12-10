@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website</title>
     <link rel="stylesheet" href="style.css">
+    <script type=module src=main.js></script>
 </head>
 <body>
-
-    <header>
-        <div class="logo-left">
-            <img src="img/upm.png" alt="Left Logo">
-        </div>
-        <div class="logo-right">
-            <img src="img/csit.png" alt="Right Logo">
+    <my-header></my-header>
+    <header class="top-header">
+        <div class="header-container">
+            <div class="pull-left">
+                <div class="logo-left">
+                    <a href="index.html">
+                    <img src="img/upm.png" alt="Left Logo">
+                    "Postgraduate Seminar Management System"
+                </div>
+            </div>
+            <!--
+            <div class="pull-right">
+                <div class="logo-right">
+                    <img src="img/csit.png" alt="Right Logo">
+                </div>
+            </div> -->
         </div>
     </header>
-
     <main>
         <section class="big-logo">
             <img src="img/postgrad.png" alt="Big Logo">
@@ -36,15 +45,13 @@
             </form>
         </section>
     </main>
-
+    <my-footer></my-footer>
     <footer>
         <div class="social-media">
             <a href="https://www.facebook.com/fcsitupm"><img src="img/facebook-icon.png" alt="Facebook"></a>
-            <a href="https://www.twitter.com"><img src="twitter-icon.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="https://www.instagram.com"><img src="img/instagram-icon.png" alt="Instagram"></a>
         </div>
         <p>CSIT &copy; 2023</p>
     </footer>
-
 </body>
 </html>
