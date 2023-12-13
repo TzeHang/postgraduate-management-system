@@ -15,8 +15,8 @@
     <!-- beginning of the page's code -->
     <!-- Top menu -->
     <body>
-      <div class="banner">
-        <div class="mycontain large flexcolwrap space-between">
+      <div class="navbar-system">
+        
             <div class="pull-left">
                 <div class="logo-left">
                     <a href="#">
@@ -25,16 +25,35 @@
                     </a>
                 </div>
             </div>
-            <!--
-            <div class="pull-right">
-                <div class="logo-right">
-                    <img src="img/csit.png" alt="Right Logo">
-                </div>
-            </div> -->
+        
+      </div>
+
+      
+<div class="container-fluid">
+  <div class="main-container">
+    <div class="row h-100 justify-content-around align-items-center">
+      <div class="col-3 h-50">
+        <div class="container_1">
+          <div class="panel_1">
+            <form class="form-horizontal" action="{% url 'left' %}" method="get">
+              <input type="submit" value="left" class="btn btn-lg btn-primary btn-block full-btn">
+            </form>
+
+          </div>
         </div>
+      </div>
+      <div class="col-3 h-50">
+        <div class="container_2">
+          <div class="panel_2">
+            <form class="form-horizontal" action="{% url 'right' %}" method="get">
+              <input type="submit" value="right" class="btn btn-lg btn-primary btn-block full-btn">
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-
-
+  </div>
+</div>
 
 
 
